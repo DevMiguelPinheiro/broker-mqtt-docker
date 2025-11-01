@@ -1,0 +1,14 @@
+# Mosquitto data and logs
+mosquitto/data/*
+mosquitto/log/*
+
+# Keep directory structure
+!mosquitto/data/.gitkeep
+!mosquitto/log/.gitkeep
+
+# Docker
+.env
+
+# OS
+.DS_Store
+Thumbs.db
